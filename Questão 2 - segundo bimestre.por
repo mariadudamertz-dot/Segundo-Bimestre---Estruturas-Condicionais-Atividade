@@ -4,28 +4,31 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro A = 1
-		inteiro B = 2
-		inteiro C = 3
+		inteiro A 
+		inteiro B 
+		inteiro C 
 		inteiro Delta
 
 	     escreva("me dê trés valores: ")
-		leia(inteiro A)
-		leia(inteiro B)
-		leia(inteiro C)
+		leia(A)
+		leia(B)
+		leia(C)
 
-		escreva("o valor de A é: " inteiro A)
-		escreva("o valor de A é: " inteiro B)
-		escreva("o valor de A é: " inteiro C)
+		escreva("o valor de A é: " A, "\n")
+		escreva("o valor de B é: " B, "\n")
+		escreva("o valor de C é: " C, "\n")
 
-		escreva("o valor de delta é: " (inteiro B * 2) - (4 * inteiro A * inteiro C))
-		leia(inteiro Delta)
+		Delta = (B * 2) - (4 * A * C)
 
-		escreva("o valor de x1: " (-inteiro B + inteiro Delta)/2 * inteiro A)
+		escreva("O valor de Delta é " Delta, "\n")
 
-		escreva("o valor de x2: " (-inteiro B - inteiro Delta)/2 * inteiro A)
+
+		escreva("o valor de x1: " (-B + Delta)/2 * A, "\n")
+
+		escreva("o valor de x2: " (-B - Delta)/2 * A)
 	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
