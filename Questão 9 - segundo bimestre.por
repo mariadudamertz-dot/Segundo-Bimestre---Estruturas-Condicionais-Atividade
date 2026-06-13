@@ -1,15 +1,16 @@
 programa
 {
-	inclua biblioteca Texto --> t
+	inclua biblioteca Texto
+ --> t
 	
 	funcao inicio()
 	{
-		cadeia vogal = "A", "E", "I", "O", "U"
+		caracter vogal = 'A' 'E' 'I' 'O' 'U'
 
 		escreva("fale uma letra")
 		leia(vogal)
 
-		se(vogal == "A", "E", "I", "O", "U")
+		se(vogal == 'A' 'E' 'I' 'O' 'U')
 		{
 			escreva("é uma vogal")
 		}
