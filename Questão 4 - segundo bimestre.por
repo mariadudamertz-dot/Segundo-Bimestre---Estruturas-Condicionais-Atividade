@@ -7,11 +7,11 @@ programa
 		inteiro multa = 7000
 
 		escreva("informe a velocidade do carro de fórmula 1: ")
-		leia(real velocidade)
+		leia(velocidade)
 
-		se(real velocidade > 80){
+		se(velocidade > 80){
 			
-			escreva("você foi penalizado em 5 segundos, sua equipe tomará uma multa de" inteiro multa)
+			escreva("você foi penalizado em 5 segundos, sua equipe tomará uma multa de" multa)
 			
 		} senao{
 			escreva("você não recebeu multa")
