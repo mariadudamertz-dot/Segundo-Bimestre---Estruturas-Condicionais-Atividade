@@ -5,12 +5,16 @@ programa
 	
 	funcao inicio()
 	{
-		caracter vogal = 'A' 'E' 'I' 'O' 'U'
+		caracter vogal1 = 'A'
+		caracter vogal2 = 'E' 
+		caracter vogal3 = 'I'
+		caracter vogal4 = 'U'
+		caracter vogal5
 
-		escreva("fale uma letra")
-		leia(vogal)
+		escreva("fale uma letra ")
+		leia(vogal5)
 
-		se(vogal == 'A' 'E' 'I' 'O' 'U')
+		se(vogal5 == vogal1 ou vogal5 == vogal2 ou vogal5 == vogal3 ou vogal5 == vogal4)
 		{
 			escreva("é uma vogal")
 		}
