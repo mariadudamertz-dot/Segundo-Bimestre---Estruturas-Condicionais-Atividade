@@ -7,14 +7,14 @@ programa
 		real numero2
 
 		escreva("me diga dois valores")
-		leia(real numero1)
-		leia(real numero2)
+		leia(numero1)
+		leia(numero2)
 
-		se(real numero1 > real numero2){
-			escreva(real numero2 " é maior")
+		se(numero1 < numero2){
+			escreva(numero2 " é maior")
 			
-		} senao se(real numero2 < real numero1){
-			escreva(real numero1 " é maior")
+		} senao{
+			escreva(numero1 " é maior")
 		}
 	}
 }
