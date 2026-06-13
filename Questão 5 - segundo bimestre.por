@@ -6,14 +6,20 @@ programa
 		real temperatura
 
 		escreva("diga a temperatura: ")
-		leia(real temperatura)
+		leia(temperatura)
 
-		se(real temperatura >= 21){
-			escreva("a temperatura é quente")
+		se(temperatura > 1)
+		{
+			escreva("a temperatura é positiva")
 			
-		} senao se(real temperatura < 21){
-			escreva("a temperatura é fria")
+		} 
+		
+		senao se(temperatura < -1)
+		
+		{
+			escreva("a temperatura é negativa")
 		}
+      }
 }
 /* $$$ Portugol Studio $$$ 
  * 
